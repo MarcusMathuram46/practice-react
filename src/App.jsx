@@ -1,0 +1,14 @@
+function App() {
+  const now = new Date ();
+
+
+
+  return (
+    <div>
+      <p>Hello World, it is { now.toString }</p>
+      
+    </div>
+  )
+}
+
+export default App
