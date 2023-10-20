@@ -1,21 +1,21 @@
-function Hello() {
+function Hello(props) {
+  console.log(props)
   return(
-    <p>Hello World</p>
+    <p>Hello { props.username }</p>
 
   )
 }
 
 function App() {
-  const now = new Date ();
-  console.log(now);
+  let user1 = 'Marcus';
+  let user2 = 'jesus';
 
   return (
     <div>
       <h1>Greetings</h1>
-      <Hello />
-      <Hello />
-      <Hello />
-      <Hello />
+      <Hello username={ user1 }/>
+      <Hello username={ user2 }/>
+      
       
     </div>
   )
