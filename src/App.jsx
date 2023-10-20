@@ -1,14 +1,11 @@
-function App() {
-  const now = new Date ();
+import React from 'react'
 
-
-
+function  () {
   return (
     <div>
-      <p>Hello World, it is { now.toString }</p>
       
     </div>
   )
 }
 
-export default App
+export default  
