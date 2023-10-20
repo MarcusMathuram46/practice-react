@@ -1,4 +1,9 @@
-import React from 'react'
+function Hello() {
+  return(
+    <p>Hello World</p>
+
+  )
+}
 
 function App() {
   const now = new Date ();
@@ -6,7 +11,11 @@ function App() {
 
   return (
     <div>
-      <p>Hello World</p>
+      <h1>Greetings</h1>
+      <Hello />
+      <Hello />
+      <Hello />
+      <Hello />
       
     </div>
   )
